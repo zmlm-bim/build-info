@@ -83,7 +83,7 @@
                     </FormItem>
                   </Form>
                 </TabPane>
-                <TabPane
+                <!-- <TabPane
                   :label="$t('mobileLogin')"
                   name="mobile"
                   icon="ios-phone-portrait"
@@ -133,9 +133,9 @@
                       </Row>
                     </FormItem>
                   </Form>
-                </TabPane>
+                </TabPane> -->
               </Tabs>
-              <Tooltip
+              <!-- <Tooltip
                 content="XBoot App扫码登录"
                 placement="right"
                 class="qr block-tool"
@@ -143,10 +143,10 @@
                 <router-link to="/login-qr">
                   <XIcon type="iconfont icon-saomadenglu1" size="30" />
                 </router-link>
-              </Tooltip>
+              </Tooltip> -->
             </div>
 
-            <Row justify="space-between" align="middle">
+            <!-- <Row justify="space-between" align="middle">
               <Checkbox v-model="form.saveLogin" size="large">{{
                 $t("autoLogin")
               }}</Checkbox>
@@ -162,7 +162,7 @@
                   >
                 </DropdownMenu>
               </Dropdown>
-            </Row>
+            </Row> -->
             <Button
               class="login-btn"
               type="primary"
@@ -174,7 +174,7 @@
               <span v-if="!loading">{{ $t("login") }}</span>
               <span v-else>{{ $t("logining") }}</span>
             </Button>
-            <Row type="flex" justify="space-between" class="other-login">
+            <!-- <Row type="flex" justify="space-between" class="other-login">
               <div class="other-way icons">
                 {{ $t("otherLogin") }}
                 <div class="other-icon" @click="toGithubLogin">
@@ -226,7 +226,7 @@
               <router-link to="/register">
                 <a class="forget-pass">{{ $t("registerAccount") }}</a>
               </router-link>
-            </Row>
+            </Row> -->
           </div>
           <div v-if="socialLogining">
             <RectLoading />
@@ -286,8 +286,8 @@ export default {
       sending: false,
       checkSms: true,
       form: {
-        username: "test或test2 可注册 支持第三方账号登录",
-        password: "123456",
+        username: "",
+        password: "",
         mobile: "",
         code: "",
         captchaId: "",
