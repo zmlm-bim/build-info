@@ -1,6 +1,6 @@
 <template>
   <div class="foot">
-    <Row type="flex" justify="space-around" class="foot-item">
+    <!-- <Row type="flex" justify="space-around" class="foot-item">
       <a
         class="item"
         href="https://www.kancloud.cn/exrick/xboot/1009234"
@@ -19,7 +19,7 @@
       <a href="http://exrick.cn" target="_blank" style="margin: 0 5px"
         >Exrick</a
       >
-      {{ $t("rights") }}
+      {{ $t("rights") }} -->
     </Row>
   </div>
 </template>

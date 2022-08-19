@@ -1,12 +1,13 @@
 <template>
   <div>
     <div class="header">
-      <img
+      <!-- <img
         src="@/assets/logo-white.png"
         width="220px"
         v-if="mainTheme == 'darkMode'"
       />
-      <img src="@/assets/logo-black.png" width="220px" v-else />
+      <img src="@/assets/logo-black.png" width="220px" v-else /> -->
+      <h1>工程项目过程数据管理平台</h1>
       <div class="description">{{ $t("xboot") }}</div>
     </div>
   </div>
