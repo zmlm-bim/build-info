@@ -33,13 +33,13 @@ public class XbootGenerator {
      * 实体类名
      * 建议仅需修改
      */
-    private static final String CLASS_NAME = "projectInfo";
+    private static final String CLASS_NAME = "evaluationExpert";
 
     /**
      * 类说明描述
      * 建议仅需修改
      */
-    private static final String DESCRIPTION = "项目信息";
+    private static final String DESCRIPTION = "评标专家";
 
     /**
      * 作者名
