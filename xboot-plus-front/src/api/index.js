@@ -672,3 +672,93 @@ export const editProjecInfo = (params) => {
 export const deleteProjecInfo = (params) => {
     return postRequest('/projectInfo/delByIds', params)
 }
+
+//项目信息管理
+// 分页获取数据
+export const getProjectMessageManageList = (params) => {
+    return getRequest('/projectMessageManage/getByCondition', params)
+}
+// 添加
+export const addProjectMessageManage = (params) => {
+    return postRequest('/projectMessageManage/save', params)
+}
+// 编辑
+export const editProjectMessageManage = (params) => {
+    return putRequest('/projectMessageManage/update', params)
+}
+// 删除
+export const deleteProjectMessageManage = (params) => {
+    return postRequest('/projectMessageManage/delByIds', params)
+}
+
+//标段信息管理
+// 分页获取数据
+export const getTendersMessageManageList = (params) => {
+    return getRequest('/tendersMessageManage/getByCondition', params)
+}
+// 添加
+export const addTendersMessageManage = (params) => {
+    return postRequest('/tendersMessageManage/save', params)
+}
+// 编辑
+export const editTendersMessageManage = (params) => {
+    return putRequest('/tendersMessageManage/update', params)
+}
+// 删除
+export const deleteTendersMessageManage = (params) => {
+    return postRequest('/tendersMessageManage/delByIds', params)
+}
+
+// 招标信息
+// 分页获取数据
+export const getTenderingInfoList = (params) => {
+    return getRequest('/tenderingInfo/getByCondition', params)
+}
+// 添加
+export const addTenderingInfo = (params) => {
+    return postRequest('/tenderingInfo/save', params)
+}
+// 编辑
+export const editTenderingInfo = (params) => {
+    return putRequest('/tenderingInfo/update', params)
+}
+// 删除
+export const deleteTenderingInfo = (params) => {
+    return postRequest('/tenderingInfo/delByIds', params)
+}
+
+//投标信息
+// 分页获取数据
+export const getBiddingInfoList = (params) => {
+    return getRequest('/biddingInfo/getByCondition', params)
+}
+// 添加
+export const addBiddingInfo = (params) => {
+    return postRequest('/biddingInfo/save', params)
+}
+// 编辑
+export const editBiddingInfo = (params) => {
+    return putRequest('/biddingInfo/update', params)
+}
+// 删除
+export const deleteBiddingInfo = (params) => {
+    return postRequest('/biddingInfo/delByIds', params)
+}
+
+//评标信息
+// 分页获取数据
+export const getEvaluationInfoList = (params) => {
+    return getRequest('/evaluationInfo/getByCondition', params)
+}
+// 添加
+export const addEvaluationInfo = (params) => {
+    return postRequest('/evaluationInfo/save', params)
+}
+// 编辑
+export const editEvaluationInfo = (params) => {
+    return putRequest('/evaluationInfo/update', params)
+}
+// 删除
+export const deleteEvaluationInfo = (params) => {
+    return postRequest('/evaluationInfo/delByIds', params)
+}

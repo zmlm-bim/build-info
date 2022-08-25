@@ -1,5 +1,5 @@
 <template>
-  <div style="cursor: pointer;">
+  <div style="cursor: pointer;" @click="onClick">
     <Card>
       <div class="card-info">
         <img :src="img" class="icon" />
@@ -20,6 +20,10 @@ export default {
     title: {
       type: String,
       default: "",
+    },
+    onClick:{
+      type:String,
+      default:""
     },
   },
 };

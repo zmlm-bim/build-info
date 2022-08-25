@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <div v-if="!currNav || currNav == 'xboot'" class="home">
+    <div v-if="!currNav || currNav == 'xboot'" class="home">bf
       <Row :gutter="10">
         <!-- 左上侧 用户信息及github链接 -->
         <Col :xs="24" :sm="24" :lg="24" :xl="8">

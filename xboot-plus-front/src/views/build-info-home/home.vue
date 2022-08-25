@@ -28,7 +28,7 @@
             <Card>
               <div class="projectCard">
                 <h3 style="width: 100px">项目一期</h3>
-                <Steps :current="2">
+                <Steps :current="4">
                   <Step title="立项"></Step>
                   <Step title="设计"></Step>
                   <Step title="采购"></Step>
@@ -44,7 +44,7 @@
             <Card>
               <div class="projectCard">
                 <h3 style="width: 100px">项目二期</h3>
-                <Steps :current="0">
+                <Steps :current="2">
                   <Step title="立项"></Step>
                   <Step title="设计"></Step>
                   <Step title="采购"></Step>
@@ -60,7 +60,7 @@
             <Card>
               <div class="projectCard">
                 <h3 style="width: 100px">项目三期</h3>
-                <Steps :current="4">
+                <Steps :current="0">
                   <Step title="立项"></Step>
                   <Step title="设计"></Step>
                   <Step title="采购"></Step>
